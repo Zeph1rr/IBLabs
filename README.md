@@ -13,7 +13,7 @@
 
 - [x] [Лабораторная работа №1: Phishing](phishing.md)
 - [x] [Лабораторная работа №2: Security Operations Center](soc.md)
-- [ ] Лабораторная работа №3: Deception Technology
+- [x] [Лабораторная работа №3: Deception Technology](deception.md)
 - [ ] Лабораторная работа №4: Web Application Firewall
 
 ## Полезные ссылки
