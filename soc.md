@@ -18,7 +18,7 @@ docker-compose up -d elasticsearch logstash kibana
 После того как ELK-стек запустился, надо запустить сервис с формой ввода логина и пароля:
 
 ```
-docker-compose -d up servic
+docker-compose up -d service
 ```
 
 Теперь, когда все развернуто и готово к использованию, заходим в Kibana по адресу http://localhost:5601
