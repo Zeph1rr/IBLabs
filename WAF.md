@@ -119,7 +119,7 @@ SecRule ARGS "@contains &&" "phase:2,log,deny,msg:'Command injection'id:700010"
 SecRule ARGS "@contains pwd" "phase:2,log,deny,msg:'Command injection'id:700011"
 SecRule ARGS "@contains cat" "phase:2,log,deny,msg:'Command injection'id:700012"
 SecRule ARGS "@contains etc" "phase:2,log,deny,msg:'File Inclusion'id:700013"
-SecRule ARGS "@contains 'union'" "phase:2,log,deny,msg:'SQL injection'id:700014"
+SecRule ARGS "@contains union" "phase:2,log,deny,msg:'SQL injection'id:700014"
 SecRule ARGS "@contains alert(" "phase:2,log,deny,msg:'XSS_Reflected'id:700015"
 ```
 
